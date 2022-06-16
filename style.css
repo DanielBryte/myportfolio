@@ -100,7 +100,6 @@ nav i {
 
 /****** Home Content ******/
 
-
 .about img{
     width: 200px;
     border: 2px solid white;
@@ -114,7 +113,7 @@ nav i {
 .about{
     letter-spacing: 2px;
     margin-left: -80px;
-    padding-top: 50px;
+    padding-top: 30px;
     display:flex;
     align-items: center;
     justify-content: space-evenly;
@@ -128,7 +127,7 @@ nav i {
     text-align: center;
     font-size: 40px;
     letter-spacing: 1px;
-    line-height: 40vh;
+    line-height: 30vh;
 }
 .aboutme span {
     font-size: 45px;
@@ -411,6 +410,11 @@ nav i {
     opacity: .5;
 }
 
+.scroll1 a{
+    top: 80%;
+}
+
+
 
 /**** RESPONSIVENESS ****/
 
@@ -437,17 +441,17 @@ nav i {
     }
 
     .aboutme {
-        font-size: 26px;
+        font-size: 24px;
         letter-spacing: 1px;
         margin-top: 60px;
-        font-weight: 600;
+        font-weight: 500;
     }
     .aboutme span {
-        font-size: 26px;
+        font-size: 24px;
         color: white;
         font-style: italic;
         white-space: wrap;
-        font-weight: 600;
+        font-weight: 500;
 
     }
     
@@ -517,7 +521,7 @@ nav i {
         text-decoration: none;
         display: flex;
         align-items: center;
-        padding-right: 50px;
+        padding-right: 10px;
         margin: auto;
     }
     #nav-content ul a:hover{
